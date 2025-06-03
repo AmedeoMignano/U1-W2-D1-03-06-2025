@@ -68,4 +68,5 @@ console.log(result);
 let name1 = "john";
 let name2 = "John";
 console.log(name1 === name2);
-let nameTrue = name2 === "john" ? true : false;
+let lowerName = name1.toLowerCase() === name2.toLowerCase();
+console.log(lowerName);
